@@ -1,0 +1,240 @@
+{
+  "auth": {
+    "description": "作成者は認証を有効にしています。以下の共有コードを入力してください",
+    "form": {
+      "confirm_button": "確認",
+      "confirm_button_loading": "検証中",
+      "input_code": "共有コードを入力してください",
+      "remember_code": "共有コードを記憶する"
+    },
+    "title": "コードを共有する必要がある"
+  },
+  "edit": {
+    "form": {
+      "custom_mode_label": "カスタムモード",
+      "description_label": "曲の説明",
+      "description_placeholder": "生成したい音楽について説明してください",
+      "dialog": {
+        "udio_advanced": {
+          "average": "一般的に",
+          "best": "ほとんど",
+          "better": "より良い",
+          "clarity_label": "明瞭度の強さ",
+          "clarity_tooltip": "オーディオ生成時にモデルが明瞭さと楽器の分離に置く優先順位を制御します。\n値を高くすると、よりクリアなオ​​ーディオが生成されますが、サウンドが不自然になる可能性があります。",
+          "description": "Udio関連の詳細パラメータ設定",
+          "faster": "もっと早く",
+          "high": "高い",
+          "low": "低い",
+          "lyrics_strength_label": "歌詞の強さ",
+          "lyrics_strength_tooltip": "生成されたコンテンツに歌詞がどの程度影響するかを制御します。\n値を低くすると、より自然なサウンドが生成されますが、一部の歌詞の内容が無視される場合があります。",
+          "negative_prompt_label": "否定的な合図の言葉",
+          "negative_prompt_placeholder": "取得したくないスタイルやコンセプトなどのキーワードを入力してください...",
+          "negative_prompt_tooltip": "この機能を使用すると、モデルが特定のジャンル、スタイル、またはコンセプトの作品への影響を軽減できます。",
+          "prompt_strength_label": "即座の言葉の強さ",
+          "prompt_strength_tooltip": "生成されたコンテンツに対するプロンプトワードの影響を制御するために使用されます。\n値を高くすると、キューワードへの準拠性が向上しますが、生成されるサウンドが自然ではなくなる可能性があります。",
+          "quality_label": "ビルド品質",
+          "quality_tooltip": "より高品質のコンテンツを取得するために生成速度を犠牲にすることも、コンテンツの品質を犠牲にして生成速度を高速化することも選択できます (右に行くほど生成品質は高くなり、生成速度は遅くなり、その逆も同様です) )",
+          "slower": "もっとゆっくり",
+          "title": "高度なパラメータ設定",
+          "worse": "貧しい"
+        }
+      },
+      "errors": {
+        "lyrics_required": "歌詞を空にすることはできません",
+        "music_description_required": "曲の説明を空にすることはできません",
+        "polling_failed": "音楽の生成に失敗しました。もう一度お試しください。",
+        "style_required": "スタイルを空にすることはできません",
+        "styles_generation_failed_1": "トラック 1 スタイル記述の生成に失敗しました",
+        "styles_generation_failed_2": "トラック 2 スタイルの説明の生成に失敗しました",
+        "submit_failed": "送信に失敗しました。後でもう一度試してください",
+        "suno_submit_failed": "Suno 音楽の送信に失敗しました。後でもう一度試してください。",
+        "title_required": "タイトルを空にすることはできません",
+        "udio_submit_failed": "Udio 音楽の送信に失敗しました。後でもう一度試してください。"
+      },
+      "generate_button_label": "生成する",
+      "generate_loading_button_label": "作成中",
+      "loading": {
+        "generating_styles_1": "トラック 1 のスタイル記述を生成しています...",
+        "generating_styles_2": "トラック 2 のスタイル記述を生成しています...",
+        "resuming_suno_task": "Suno 音楽生成タスクを再開しています...",
+        "resuming_udio_task": "Udio 音楽生成タスクを再開しています...",
+        "submitting_suno_task": "Suno 音楽生成タスクを送信しています...",
+        "submitting_udio_task": "Udio 音楽生成タスクを送信しています..."
+      },
+      "lyrics_action_label": "AIが生成した歌詞",
+      "lyrics_action_loading_label": "考え",
+      "lyrics_description_required": "歌詞の説明を空にすることはできません",
+      "lyrics_generate_error": "歌詞の生成に失敗しました",
+      "lyrics_generate_success": "歌詞が正常に生成されました",
+      "lyrics_label": "歌詞",
+      "lyrics_placeholder": "歌詞または生成したい曲の説明を入力し、「AI Generate Lyrics」をクリックします。",
+      "model_select_placeholder": "モデルを選択してください",
+      "pure_music_label": "純粋な音楽",
+      "reset_button_label": "リセット",
+      "style_label": "スタイル",
+      "style_placeholder": "この曲のスタイルを説明してください",
+      "success": {
+        "resuming_suno_task": "Suno 音楽生成タスクが再開されました",
+        "resuming_udio_task": "Udio 音楽生成タスクが再開されました",
+        "styles_generated_1": "オーディオトラック 1 のスタイル説明が正常に生成されました",
+        "styles_generated_2": "オーディオ トラック 2 のスタイル説明が正常に生成されました",
+        "submitting_suno_task": "Suno 音楽生成タスクを送信しました",
+        "submitting_udio_task": "Udio 音楽生成タスクを送信しました",
+        "suno_generated": "Suno 音楽が正常に生成されました",
+        "udio_generated": "Udio 音楽が正常に生成されました"
+      },
+      "title_label": "タイトル",
+      "title_placeholder": "曲のタイトルを入力してください",
+      "udio_advanced_label": "高度なパラメータ"
+    }
+  },
+  "form": {
+    "edit": {
+      "dialog": {
+        "udio_advanced": {
+          "description": "Udio関連の詳細パラメータ設定",
+          "title": "高度なパラメータ設定"
+        }
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "code_invalid": "共有コードが無効です。詳細は302.AIをご覧ください",
+      "copy_failed": "コピーに失敗しました",
+      "network_error": "ネットワークサービスエラー。ネットワーク状態を確認するか、後ほど再試行してください",
+      "not_found": "ページが存在しません",
+      "tool_deleted": "このツールは削除されました。詳細については、<site>302.AI</site> にアクセスしてください。",
+      "tool_disabled": "このツールは無効になっています。詳細については、<site>302.AI</site> にアクセスしてください。",
+      "unknown_error": "不明なエラーが発生しました。サポートにお問い合わせください"
+    },
+    "footer": {
+      "copyright_content": "<logo></logo>による提供",
+      "copyright_leading": "AI生成のコンテンツであり、参考用です"
+    },
+    "header": {
+      "language_switcher": {
+        "switch_language": "言語を切り替える"
+      },
+      "theme_switcher": {
+        "dark": "ダークモード",
+        "light": "ライトモード",
+        "system": "システムデフォルト",
+        "toggle_theme": "テーマを切り替える"
+      },
+      "tool_info": {
+        "description": "現在のツールに関する情報",
+        "title": "について",
+        "trigger": {
+          "label": "ツール情報ポップアップを開く/閉じる"
+        }
+      }
+    }
+  },
+  "home": {
+    "header": {
+      "title": "AI音楽制作"
+    },
+    "player": {
+      "image_alt": {
+        "cover": "ソングカバー"
+      },
+      "mode": {
+        "loop_all": "リストループ",
+        "loop_one": "シングルループ",
+        "none": "シングルプレイ",
+        "shuffle": "シャッフル"
+      },
+      "no_track": {
+        "description": "再生する音楽を選択してください",
+        "title": "音楽が選択されていません"
+      }
+    },
+    "playlist": {
+      "empty": {
+        "description": "エディターで作成すると、作成された音楽がここに表示されます",
+        "title": "プレイリストが空です"
+      },
+      "song_detail": {
+        "actions": {
+          "close": "閉鎖",
+          "copy_lyrics": "歌詞をコピーする",
+          "copy_lyrics_success": "コピーされた歌詞: {title}",
+          "download": "ダウンロード",
+          "download_mp3": "MP3をダウンロード",
+          "download_mp4": "MP4をダウンロード",
+          "regenerate": "再生する"
+        },
+        "default": {
+          "description": "説明なし",
+          "lyrics": "まだ歌詞がありません",
+          "model": "不明なモデル",
+          "title": "無題"
+        },
+        "duration": "間隔",
+        "image_alt": {
+          "cover": "ソングカバー"
+        },
+        "lyrics": "歌詞",
+        "model": "モデル",
+        "tooltips": {
+          "close": "詳細を閉じる",
+          "copy_lyrics": "歌詞をクリップボードにコピー",
+          "download": "曲をダウンロードする",
+          "regenerate": "曲を再生成する"
+        }
+      },
+      "song_item": {
+        "actions": {
+          "continue": "書き続ける",
+          "delete": "消去",
+          "download_mp3": "MP3をダウンロード",
+          "download_mp4": "MP4をダウンロード",
+          "regenerate": "やり直し"
+        },
+        "default": {
+          "description": "説明なし",
+          "model": "不明なモデル",
+          "title": "無題"
+        },
+        "image_alt": {
+          "cover": "ソングカバー"
+        }
+      },
+      "toast": {
+        "continue": "作成を続行: {title}",
+        "copy_lyrics_failed": "歌詞をコピーできませんでした: {title}",
+        "copy_lyrics_success": "コピーされた歌詞: {title}",
+        "delete": "削除: {title}",
+        "download_mp3_failed": "MP3 のダウンロードに失敗しました: {title}",
+        "download_mp4_failed": "MP4 のダウンロードに失敗しました: {title}",
+        "downloaded_mp3": "ダウンロードした MP3: {title}",
+        "downloaded_mp4": "ダウンロードした MP4: {title}",
+        "downloading_mp3": "MP3 をダウンロード中: {title}",
+        "downloading_mp4": "MP4 をダウンロード中: {title}",
+        "no_audio_url": "音声なし URL: {title}",
+        "no_video_url": "動画 URL がありません: {title}",
+        "regenerate": "再生成: {title}"
+      }
+    },
+    "tabs": {
+      "editor": "エディタ",
+      "playlist": "プレイリスト",
+      "video": "ビデオ"
+    },
+    "video": {
+      "error": {
+        "no_current_song": "現在再生されていない曲",
+        "no_video": "現在の曲のビデオはありません"
+      },
+      "open": "ビデオを開く",
+      "title": "ビデオプレーヤー",
+      "unavailable": "まだビデオはありません"
+    }
+  },
+  "tooltips": {
+    "copy_lyrics": "歌詞をコピーする",
+    "download": "ダウンロード",
+    "regenerate": "再生する"
+  }
+}

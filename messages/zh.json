@@ -1,0 +1,240 @@
+{
+  "auth": {
+    "description": "创建者开启了验证，请在下方填入分享码",
+    "form": {
+      "confirm_button": "确认",
+      "confirm_button_loading": "验证中",
+      "input_code": "请输入分享码",
+      "remember_code": "记住分享码"
+    },
+    "title": "需要分享码"
+  },
+  "edit": {
+    "form": {
+      "custom_mode_label": "自定义模式",
+      "description_label": "歌曲描述",
+      "description_placeholder": "描述您想生成的音乐",
+      "dialog": {
+        "udio_advanced": {
+          "average": "一般",
+          "best": "最好",
+          "better": "较好",
+          "clarity_label": "清晰度强度",
+          "clarity_tooltip": "控制模型在生成音频时对清晰度和乐器分离度的优先级。较高的值可能会产生更清晰的音频，但声音可能不够自然。",
+          "description": "Udio相关高级参数设置",
+          "faster": "较快",
+          "high": "高",
+          "low": "低",
+          "lyrics_strength_label": "歌词强度",
+          "lyrics_strength_tooltip": "控制歌词对生成内容的影响程度。较低的值可能会产生更自然的声音，但可能会忽略部分歌词内容。",
+          "negative_prompt_label": "负面提示词",
+          "negative_prompt_placeholder": "输入您不希望得到的风格、概念等关键词...",
+          "negative_prompt_tooltip": "使用这个功能可以帮助模型减少特定类型、风格或概念对你的创作的影响",
+          "prompt_strength_label": "提示词强度",
+          "prompt_strength_tooltip": "用于控制提示词对生成内容的影响程度。较高的值可以提高对提示词的遵循度，但可能会导致生成的声音不够自然。",
+          "quality_label": "生成质量",
+          "quality_tooltip": "你可以选择牺牲生成速度来获得更高质量的内容，或者选择以牺牲内容质量为代价来加快生成速度（越靠右则生成质量越高、生成速度越慢，反之同理）",
+          "slower": "较慢",
+          "title": "高级参数设定",
+          "worse": "较差"
+        }
+      },
+      "errors": {
+        "lyrics_required": "歌词不能为空",
+        "music_description_required": "歌曲描述不能为空",
+        "polling_failed": "音乐生成失败,请重试",
+        "style_required": "风格不能为空",
+        "styles_generation_failed_1": "音轨1风格描述生成失败",
+        "styles_generation_failed_2": "音轨2风格描述生成失败",
+        "submit_failed": "提交失败,请稍后重试",
+        "suno_submit_failed": "Suno音乐提交失败,请稍后重试",
+        "title_required": "标题不能为空",
+        "udio_submit_failed": "Udio音乐提交失败,请稍后重试"
+      },
+      "generate_button_label": "生成",
+      "generate_loading_button_label": "创作中",
+      "loading": {
+        "generating_styles_1": "正在为音轨1生成风格描述...",
+        "generating_styles_2": "正在为音轨2生成风格描述...",
+        "resuming_suno_task": "正在恢复Suno音乐生成任务...",
+        "resuming_udio_task": "正在恢复Udio音乐生成任务...",
+        "submitting_suno_task": "正在提交Suno音乐生成任务...",
+        "submitting_udio_task": "正在提交Udio音乐生成任务..."
+      },
+      "lyrics_action_label": "AI 生成歌词",
+      "lyrics_action_loading_label": "思考中",
+      "lyrics_description_required": "歌词描述不能为空",
+      "lyrics_generate_error": "歌词生成失败",
+      "lyrics_generate_success": "歌词生成成功",
+      "lyrics_label": "歌词",
+      "lyrics_placeholder": "输入您的歌词，或者您希望生成歌曲的描述，然后点击 AI 生成歌词",
+      "model_select_placeholder": "选择模型",
+      "pure_music_label": "纯音乐",
+      "reset_button_label": "重置",
+      "style_label": "风格",
+      "style_placeholder": "描述这首歌的风格",
+      "success": {
+        "resuming_suno_task": "已恢复Suno音乐生成任务",
+        "resuming_udio_task": "已恢复Udio音乐生成任务",
+        "styles_generated_1": "音轨1风格描述生成成功",
+        "styles_generated_2": "音轨2风格描述生成成功",
+        "submitting_suno_task": "已提交Suno音乐生成任务",
+        "submitting_udio_task": "已提交Udio音乐生成任务",
+        "suno_generated": "Suno音乐生成成功",
+        "udio_generated": "Udio音乐生成成功"
+      },
+      "title_label": "标题",
+      "title_placeholder": "请输入歌曲的标题",
+      "udio_advanced_label": "高级参数"
+    }
+  },
+  "form": {
+    "edit": {
+      "dialog": {
+        "udio_advanced": {
+          "description": "Udio相关高级参数设置",
+          "title": "高级参数设定"
+        }
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "code_invalid": "分享码错误, 更多请访问 302.AI",
+      "copy_failed": "复制失败",
+      "network_error": "网络服务错误, 请查看网络状态或稍后再试!",
+      "not_found": "页面不存在",
+      "tool_deleted": "该工具已删除, 更多请访问 <site>302.AI</site>",
+      "tool_disabled": "该工具已禁用, 更多请访问 <site>302.AI</site>",
+      "unknown_error": "发生未知错误, 请联系客服"
+    },
+    "footer": {
+      "copyright_content": "本项目由<logo></logo>驱动",
+      "copyright_leading": "内容由AI生成，仅供参考"
+    },
+    "header": {
+      "language_switcher": {
+        "switch_language": "切换语言"
+      },
+      "theme_switcher": {
+        "dark": "暗色模式",
+        "light": "亮色模式",
+        "system": "跟随系统",
+        "toggle_theme": "切换主题"
+      },
+      "tool_info": {
+        "description": "当前工具相关信息",
+        "title": "关于",
+        "trigger": {
+          "label": "打开/关闭工具信息弹窗"
+        }
+      }
+    }
+  },
+  "home": {
+    "header": {
+      "title": "AI 音乐制作"
+    },
+    "player": {
+      "image_alt": {
+        "cover": "歌曲封面"
+      },
+      "mode": {
+        "loop_all": "列表循环",
+        "loop_one": "单曲循环",
+        "none": "单曲播放",
+        "shuffle": "随机播放"
+      },
+      "no_track": {
+        "description": "请选择要播放的音乐",
+        "title": "未选择音乐"
+      }
+    },
+    "playlist": {
+      "empty": {
+        "description": "在编辑器中创作，生成的音乐会显示在此处",
+        "title": "播放列表为空"
+      },
+      "song_detail": {
+        "actions": {
+          "close": "关闭",
+          "copy_lyrics": "复制歌词",
+          "copy_lyrics_success": "歌词已复制: {title}",
+          "download": "下载",
+          "download_mp3": "下载 MP3",
+          "download_mp4": "下载 MP4",
+          "regenerate": "重新生成"
+        },
+        "default": {
+          "description": "无描述",
+          "lyrics": "暂无歌词",
+          "model": "未知模型",
+          "title": "无标题"
+        },
+        "duration": "时长",
+        "image_alt": {
+          "cover": "歌曲封面"
+        },
+        "lyrics": "歌词",
+        "model": "模型",
+        "tooltips": {
+          "close": "关闭详情",
+          "copy_lyrics": "复制歌词到剪贴板",
+          "download": "下载歌曲",
+          "regenerate": "重新生成歌曲"
+        }
+      },
+      "song_item": {
+        "actions": {
+          "continue": "续写",
+          "delete": "删除",
+          "download_mp3": "下载 MP3",
+          "download_mp4": "下载 MP4",
+          "regenerate": "重做"
+        },
+        "default": {
+          "description": "无描述",
+          "model": "未知模型",
+          "title": "无标题"
+        },
+        "image_alt": {
+          "cover": "歌曲封面"
+        }
+      },
+      "toast": {
+        "continue": "继续创作: {title}",
+        "copy_lyrics_failed": "复制歌词失败: {title}",
+        "copy_lyrics_success": "歌词已复制: {title}",
+        "delete": "删除: {title}",
+        "download_mp3_failed": "下载MP3失败: {title}",
+        "download_mp4_failed": "下载MP4失败: {title}",
+        "downloaded_mp3": "已下载MP3: {title}",
+        "downloaded_mp4": "已下载MP4: {title}",
+        "downloading_mp3": "正在下载MP3: {title}",
+        "downloading_mp4": "正在下载MP4: {title}",
+        "no_audio_url": "没有音频URL: {title}",
+        "no_video_url": "没有视频URL: {title}",
+        "regenerate": "重新生成: {title}"
+      }
+    },
+    "tabs": {
+      "editor": "编辑器",
+      "playlist": "播放列表",
+      "video": "视频"
+    },
+    "video": {
+      "error": {
+        "no_current_song": "当前没有播放的歌曲",
+        "no_video": "当前歌曲没有视频"
+      },
+      "open": "打开视频",
+      "title": "视频播放器",
+      "unavailable": "暂无视频"
+    }
+  },
+  "tooltips": {
+    "copy_lyrics": "复制歌词",
+    "download": "下载",
+    "regenerate": "重新生成"
+  }
+}

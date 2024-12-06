@@ -1,0 +1,240 @@
+{
+  "auth": {
+    "description": "The creator has enabled verification, please fill in the sharing code below",
+    "form": {
+      "confirm_button": "Confirm",
+      "confirm_button_loading": "Verifying",
+      "input_code": "Please enter the sharing code",
+      "remember_code": "Remember sharing code"
+    },
+    "title": "Need to share code"
+  },
+  "edit": {
+    "form": {
+      "custom_mode_label": "Custom mode",
+      "description_label": "song description",
+      "description_placeholder": "Describe the music you want to generate",
+      "dialog": {
+        "udio_advanced": {
+          "average": "generally",
+          "best": "most",
+          "better": "better",
+          "clarity_label": "clarity intensity",
+          "clarity_tooltip": "Controls the priority the model places on clarity and instrument separation when generating audio. \nHigher values ​​may produce clearer audio, but the sound may be less natural.",
+          "description": "Udio related advanced parameter settings",
+          "faster": "faster",
+          "high": "high",
+          "low": "Low",
+          "lyrics_strength_label": "lyric intensity",
+          "lyrics_strength_tooltip": "Control how much lyrics influence generated content. \nLower values ​​may produce a more natural sound, but may ignore some lyrical content.",
+          "negative_prompt_label": "negative cue words",
+          "negative_prompt_placeholder": "Enter keywords such as styles and concepts that you do not want to get...",
+          "negative_prompt_tooltip": "Use this feature to help models reduce the influence of specific genres, styles, or concepts on your creations",
+          "prompt_strength_label": "Prompt word strength",
+          "prompt_strength_tooltip": "Used to control the influence of prompt words on generated content. \nHigher values ​​improve compliance with cue words but may result in less natural sounds being generated.",
+          "quality_label": "Build quality",
+          "quality_tooltip": "You can choose to sacrifice the generation speed to obtain higher quality content, or choose to speed up the generation speed at the expense of content quality (the further to the right, the higher the generation quality and the slower the generation speed, and vice versa)",
+          "slower": "slower",
+          "title": "Advanced parameter settings",
+          "worse": "Poor"
+        }
+      },
+      "errors": {
+        "lyrics_required": "Lyrics cannot be empty",
+        "music_description_required": "Song description cannot be empty",
+        "polling_failed": "Music generation failed, please try again",
+        "style_required": "style cannot be empty",
+        "styles_generation_failed_1": "Track 1 style description generation failed",
+        "styles_generation_failed_2": "Track 2 style description generation failed",
+        "submit_failed": "Submission failed, please try again later",
+        "suno_submit_failed": "Suno music submission failed, please try again later",
+        "title_required": "Title cannot be empty",
+        "udio_submit_failed": "Udio music submission failed, please try again later"
+      },
+      "generate_button_label": "generate",
+      "generate_loading_button_label": "Under creation",
+      "loading": {
+        "generating_styles_1": "Generating style description for track 1...",
+        "generating_styles_2": "Generating style description for track 2...",
+        "resuming_suno_task": "Resuming Suno music generation task...",
+        "resuming_udio_task": "Resuming Udio music generation task...",
+        "submitting_suno_task": "Submitting Suno music generation task...",
+        "submitting_udio_task": "Submitting Udio music generation task..."
+      },
+      "lyrics_action_label": "AI generated lyrics",
+      "lyrics_action_loading_label": "Thinking",
+      "lyrics_description_required": "Lyric description cannot be empty",
+      "lyrics_generate_error": "Lyrics generation failed",
+      "lyrics_generate_success": "Lyrics generated successfully",
+      "lyrics_label": "lyrics",
+      "lyrics_placeholder": "Enter your lyrics, or a description of the song you wish to generate, then click AI Generate Lyrics",
+      "model_select_placeholder": "Select model",
+      "pure_music_label": "pure music",
+      "reset_button_label": "reset",
+      "style_label": "style",
+      "style_placeholder": "Describe the style of this song",
+      "success": {
+        "resuming_suno_task": "Suno music generation task has been resumed",
+        "resuming_udio_task": "Udio music generation task has been resumed",
+        "styles_generated_1": "Audio track 1 style description generated successfully",
+        "styles_generated_2": "Audio track 2 style description generated successfully",
+        "submitting_suno_task": "Submitted Suno music generation task",
+        "submitting_udio_task": "Submitted Udio music generation task",
+        "suno_generated": "Suno music generated successfully",
+        "udio_generated": "Udio music generated successfully"
+      },
+      "title_label": "title",
+      "title_placeholder": "Please enter the title of the song",
+      "udio_advanced_label": "Advanced parameters"
+    }
+  },
+  "form": {
+    "edit": {
+      "dialog": {
+        "udio_advanced": {
+          "description": "Udio related advanced parameter settings",
+          "title": "Advanced parameter settings"
+        }
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "code_invalid": "Invalid sharing code. For more information, visit 302.AI",
+      "copy_failed": "Copy failed",
+      "network_error": "Network service error, please check the network status or try again later!",
+      "not_found": "Page does not exist",
+      "tool_deleted": "This tool has been deleted, please visit <site>302.AI</site> for more information",
+      "tool_disabled": "This tool has been disabled, please visit <site>302.AI</site> for more information",
+      "unknown_error": "An unknown error occurred, please contact customer service"
+    },
+    "footer": {
+      "copyright_content": "Powered by <logo></logo>",
+      "copyright_leading": "Content is generated by AI and is for reference only"
+    },
+    "header": {
+      "language_switcher": {
+        "switch_language": "Switch language"
+      },
+      "theme_switcher": {
+        "dark": "Dark",
+        "light": "Light",
+        "system": "System",
+        "toggle_theme": "switch theme"
+      },
+      "tool_info": {
+        "description": "Current tool related information",
+        "title": "About",
+        "trigger": {
+          "label": "Open/Close Tool Information Popup"
+        }
+      }
+    }
+  },
+  "home": {
+    "header": {
+      "title": "AI Music Production"
+    },
+    "player": {
+      "image_alt": {
+        "cover": "song cover"
+      },
+      "mode": {
+        "loop_all": "List loop",
+        "loop_one": "single loop",
+        "none": "single play",
+        "shuffle": "shuffle"
+      },
+      "no_track": {
+        "description": "Please select music to play",
+        "title": "No music selected"
+      }
+    },
+    "playlist": {
+      "empty": {
+        "description": "Compose in the editor and the resulting music appears here",
+        "title": "Playlist is empty"
+      },
+      "song_detail": {
+        "actions": {
+          "close": "closure",
+          "copy_lyrics": "copy lyrics",
+          "copy_lyrics_success": "Lyrics copied: {title}",
+          "download": "download",
+          "download_mp3": "Download MP3",
+          "download_mp4": "Download MP4",
+          "regenerate": "Regenerate"
+        },
+        "default": {
+          "description": "No description",
+          "lyrics": "No lyrics yet",
+          "model": "unknown model",
+          "title": "Untitled"
+        },
+        "duration": "duration",
+        "image_alt": {
+          "cover": "song cover"
+        },
+        "lyrics": "lyrics",
+        "model": "Model",
+        "tooltips": {
+          "close": "Close details",
+          "copy_lyrics": "Copy lyrics to clipboard",
+          "download": "download songs",
+          "regenerate": "Regenerate songs"
+        }
+      },
+      "song_item": {
+        "actions": {
+          "continue": "Continue writing",
+          "delete": "delete",
+          "download_mp3": "Download MP3",
+          "download_mp4": "Download MP4",
+          "regenerate": "Redo"
+        },
+        "default": {
+          "description": "No description",
+          "model": "unknown model",
+          "title": "Untitled"
+        },
+        "image_alt": {
+          "cover": "song cover"
+        }
+      },
+      "toast": {
+        "continue": "Continue creating: {title}",
+        "copy_lyrics_failed": "Failed to copy lyrics: {title}",
+        "copy_lyrics_success": "Lyrics copied: {title}",
+        "delete": "Delete: {title}",
+        "download_mp3_failed": "Failed to download MP3: {title}",
+        "download_mp4_failed": "Failed to download MP4: {title}",
+        "downloaded_mp3": "Downloaded MP3: {title}",
+        "downloaded_mp4": "Downloaded MP4: {title}",
+        "downloading_mp3": "Downloading MP3: {title}",
+        "downloading_mp4": "Downloading MP4: {title}",
+        "no_audio_url": "No audio URL: {title}",
+        "no_video_url": "No video URL: {title}",
+        "regenerate": "Regenerate: {title}"
+      }
+    },
+    "tabs": {
+      "editor": "Editor",
+      "playlist": "playlist",
+      "video": "video"
+    },
+    "video": {
+      "error": {
+        "no_current_song": "Songs not currently playing",
+        "no_video": "There is no video for the current song"
+      },
+      "open": "Open video",
+      "title": "video player",
+      "unavailable": "No video yet"
+    }
+  },
+  "tooltips": {
+    "copy_lyrics": "copy lyrics",
+    "download": "download",
+    "regenerate": "Regenerate"
+  }
+}
