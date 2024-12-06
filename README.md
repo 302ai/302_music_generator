@@ -92,6 +92,3 @@ pnpm start
 4. 🛠 Powerful admin dashboard: Designed for teams and SMEs - managed by one, used by many.
 5. 🔗 API access for all AI features: All tools are open-source and customizable (in progress).
 6. 💡 Powerful development team: Launching 2-3 new applications weekly with daily product updates. Interested developers are welcome to contact us.
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
